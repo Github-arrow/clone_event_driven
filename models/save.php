@@ -25,9 +25,9 @@ function save($data)
     $query = "INSERT INTO t_students ($attributes) VALUES ($values)";
 
     if($conn->query($query) === TRUE){
-        header('location: ../resources/registration.php?success');
+        header('location: /registration.php?success');
     }else{
-        header('location: ../resources/registration.php?invalid');
+        header('location: /registration.php?invalid');
     }
 
     $conn->close();

@@ -9,8 +9,6 @@
     <script src="./assets/js/search.js"></script>
 
     <link href="./assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="./resources/registration.php">
-    <link rel="stylesheet" href="./resources/login.php">
     <script src="./assets/bootstrap/js/bootstrap.bundle.min.js"></script>
 
     <style>
@@ -24,7 +22,7 @@
     <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="javascript:void(0)">
-                <img src="./assets/img/logo.png" height="30">
+                <img src="/assets/img/logo.png" height="30">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
                 <span class="navbar-toggler-icon"></span>
@@ -32,13 +30,10 @@
             <div class="collapse navbar-collapse" id="mynavbar">
                 <ul class="navbar-nav me-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="./index.html">Dashboard</a>
+                        <a class="nav-link" href="/">Dashboard</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./resources/registration.php">Registration</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./resources/login.php">Login</a>
+                        <a class="nav-link" href="/registration.php">Registration</a>
                     </li>
                 </ul>
                 <form class="d-flex">
@@ -52,7 +47,7 @@
 
     <div class="container">
         <p class="h2 mt-3">Dashboard</p>
-        <p>You can view all recorded data, listed below.</p>
+        <p>You can view all the recorded data on this dashboard.</p>
         <div class="card mt-3">
             <div class="card-header">List of Students</div>
             <div class="card-body">
@@ -60,7 +55,7 @@
                     <thead>
                         <tr>
                             <th width="150" style="text-align: center;">Student ID</th>
-                            <th style="text-align: left; padding-left: 30px">Complete Name</th>
+                            <th style="text-align: left; padding-left: 10px">Complete Name</th>
                             <th width="50" style="text-align: center;">Action</th>
                         </tr>
                     </thead>
